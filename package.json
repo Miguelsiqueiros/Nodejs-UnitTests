@@ -1,0 +1,32 @@
+{
+  "name": "nodejs-unittests",
+  "version": "1.0.0",
+  "description": "How to create unit tests on nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miguelsiqueiros/Nodejs-UnitTests.git"
+  },
+  "keywords": [
+    "nodejs",
+    "unittest"
+  ],
+  "author": "Miguel Siqueiros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Miguelsiqueiros/Nodejs-UnitTests/issues"
+  },
+  "homepage": "https://github.com/Miguelsiqueiros/Nodejs-UnitTests#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.8.10"
+  },
+  "devDependencies": {
+    "mocha": "^7.0.1",
+    "mongodb-memory-server": "^6.2.4",
+    "supertest": "^4.0.2"
+  }
+}
